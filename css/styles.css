@@ -1,0 +1,131 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(/BebasNeue-Regular.ttf) format("truetype");
+}  
+@font-face {
+    font-family: Barlow;
+    src: url(/BarlowCondensed-Thin.ttf) format("truetype");
+}
+
+h1, h2, h3, h4, ul {
+    font-family:BebasNeue;
+}
+p {
+    font-family: Barlow;
+    font-size: 24px;
+    color: black;
+    font-weight: bolder;
+}
+ul {
+    font-size: 32px;
+}
+
+body {
+    background-color: rgba(235, 235, 224, 1); 
+    color:black;
+}
+a {
+    color: black;
+
+}
+
+.form__input {
+    display: block;
+}
+/*Home page*/
+.logo{
+    position: fixed
+   
+}
+a {
+    text-decoration:none
+    }
+    nav{
+        position: fixed;
+        margin-top: 150px;
+     }
+   ul {
+   
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+.homepic {
+    width: 911px;
+    height: 550px;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+.homeinfo {
+margin-left: 300px;
+}
+/*footer*/
+footer {
+
+    padding: 10px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .limited {
+    margin-right: 100px;
+  }
+.socials {
+    width: 200px;
+    height: 30px;
+    
+}
+
+/* Our Selection*/
+
+.topselection {
+    display: flex;
+    max-width: 1000px;
+    margin: 300px;
+ 
+}
+.ourselection {
+margin-left: 300px;
+
+}
+/*about us*/
+.aboutus {
+    margin-left: 300px;
+}
+.about-img{
+    display: flex;
+    max-width: 1000px;
+    margin: 300px;
+}
+.abouttext {
+    margin: 300px;
+}
+/*contact*/
+.visitour{
+    margin-left: 300px;
+}
+
+.contactimg{
+    display: flex;
+    max-width: 1000px;
+    margin: 300px;
+}
+
+/*The Lobtser*/
+.movielob {
+    display: flex;
+    max-width: 1000px;
+    margin: 300px;
+}
+.lobster-info{
+    margin-left: 300px;
+}
+
+
+

@@ -7,6 +7,10 @@
     src: url(/BarlowCondensed-Thin.ttf) format("truetype");
 }
 
+@media (min-width:768px){
+    
+}
+
 h1, h2, h3, h4, ul {
     font-family:BebasNeue;
 }
@@ -53,8 +57,7 @@ a {
 
     }
 .homepic {
-    width: 911px;
-    height: 550px;
+    display: flex;
     margin-top: 70px;
     margin-left: 300px;
 }
@@ -83,49 +86,61 @@ footer {
 }
 
 /* Our Selection*/
-
-.topselection {
+.ourselection{
     display: flex;
-    max-width: 1000px;
-    margin: 300px;
- 
+    margin-left: 200px;
+    margin-top: 300;
 }
-.ourselection {
-margin-left: 300px;
+.container-5{
+    display: flex;
+    padding: 200px 200px;
+    
+
 
 }
 /*about us*/
-.aboutus {
-    margin-left: 300px;
-}
-.about-img{
+.container-1{
     display: flex;
-    max-width: 1000px;
-    margin: 300px;
+    padding: 200px 200px;
 }
-.abouttext {
-    margin: 300px;
+.box-1{
+    flex: 2;
 }
-/*contact*/
-.visitour{
-    margin-left: 300px;
+.box-2{
+    flex: 1;
 }
 
-.contactimg{
-    display: flex;
-    max-width: 1000px;
-    margin: 300px;
-}
 
 /*The Lobtser*/
-.movielob {
+.container-6{
     display: flex;
-    max-width: 1000px;
-    margin: 300px;
-}
-.lobster-info{
-    margin-left: 300px;
+    flex-direction: column;
+    padding: 200px 200px ;
+    
 }
 
+/*check out*/
 
+.container-2{
+    display: flex;
+    padding: 200px 200px ;
+}
+.box-3{
+    flex: 1;
+}
+.box-3{
+    flex: 1;
+}
+/*contact*/
+.container-3{
+    display: flex;
+    padding: 100px 250px;
+    width: 70%;
 
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    }
+   

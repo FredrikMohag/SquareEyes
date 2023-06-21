@@ -25,7 +25,16 @@ ul {
 body {
     background-color: rgba(235, 235, 224, 1); 
     color:black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
+main{
+    flex-grow: 1;
+}
+
 a {
     color: black;
 
@@ -160,12 +169,7 @@ a {
         margin: 10px;
     
       
-        /* vertical-align: bottom; */
-      
-        /* by using position relative on the parent
-        photo element, out overlay will be positioned
-        in relation to it 
-        position: relative; */
+        
       
         justify-content: center;
       }
@@ -229,16 +233,24 @@ footer {
 /*about us*/
 .container-1{
     display: flex;
+    flex-direction: row;
     padding: 200px 200px;
+    
 }
 .about-text{
+    display: flex;
     position:relative;
+    justify-content: center;
         bottom: 7%;
         right: 2%;
 }
-
+.about-image{
+    display: flex;
+   
+}
 .about-us{
-    position: absolute;
+    display: flex;
+    position:absolute;
         top: 27%;
         left: 40%;
 }
@@ -250,21 +262,22 @@ footer {
     flex-direction: column;
     padding: 200px 200px ;
     }
+    .movielob{
+        width: 920px;
+    height: 470px;
+    }
     .movie-container{
         position:relative;
     
         
     }
     .lobster-content1 {
+        position: fixed;
         position: absolute;
         top: 1%;
         left: 2%;
     }
-    .lobster-content2 {
-        position: absolute;
-        top: 2%;
-        left: 12%;
-    }
+    
     .lobster-content3 {
         position: absolute;
        
@@ -272,9 +285,8 @@ footer {
         left: 2%;
     }
     .checkout-icon {
-        position: absolute;
-        bottom: 1%;
-        right: 10%;
+        position: flex;
+
     }
 .container-info {
     
@@ -288,6 +300,7 @@ footer {
 .container-2{
     display: flex;
     padding: 200px 200px ;
+   
 }
 .box-3{
     flex: 1;
@@ -332,24 +345,17 @@ footer {
 /* --- FOOTER --- */
 
 .footer {
-    /* background-color: #f2f2f2;  */ 
+    
     background-image: url(/images/footer.png);
-    /*
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-*/
+    
     background-size: 100% 100%;
-    padding: 20px;
+    padding: 1px;
     text-align: left;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    
     
   }
 
@@ -363,9 +369,6 @@ footer {
     display: inline-block;
     width: 30px;
     height: 30px;
-    /* background-color: #333; 
-    color: #000; 
-    border-radius: 50%;*/
     text-align: center;
     line-height: 30px;
     

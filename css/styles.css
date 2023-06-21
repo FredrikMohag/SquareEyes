@@ -1,3 +1,8 @@
+
+    
+
+
+
 @font-face {
     font-family: BebasNeue;
     src: url(/BebasNeue-Regular.ttf) format("truetype");
@@ -7,9 +12,7 @@
     src: url(/BarlowCondensed-Thin.ttf) format("truetype");
 }
 
-@media (min-width:768px){
-    
-}
+
 
 h1, h2, h3, h4, ul {
     font-family:BebasNeue;
@@ -36,7 +39,7 @@ a {
 .form__input {
     display: block;
 }
-/*Home page*/
+
 .logo{
     position: fixed
    
@@ -56,18 +59,29 @@ a {
         flex-direction: column;
 
     }
-.homepic {
+
+    /*Home page*/
+.index-img {
     display: flex;
-    margin-top: 70px;
-    margin-left: 300px;
+    padding: 100px 350px ;
+}
+.home-info {
+    display: flex;
+    position:absolute;
+        top: 90%;
+        left: 25%;
+    
 }
 .homeinfo {
-margin-left: 300px;
-}
+    display: flex;
+    position:absolute;
+        top: 94%;
+        left: 25%;
+    }
+
 /*footer*/
 footer {
-
-    padding: 10px;
+    padding: 1px;
   }
   
   .footer-content {
@@ -77,37 +91,51 @@ footer {
   }
   
   .limited {
-    margin-right: 100px;
+    display: flex;
+    margin-right: 50px;
+    
   }
 .socials {
+    display: flex;
     width: 200px;
-    height: 30px;
+    height: 25px;
     
 }
 
 /* Our Selection*/
+
+
 .ourselection{
     display: flex;
-    margin-left: 200px;
-    margin-top: 300;
+    position:absolute;
+        top: 32%;
+        left: 21%;
+    
 }
-.container-5{
+.topselection{
     display: flex;
-    padding: 200px 200px;
+    padding: 300px 300px;
+    
+}
     
 
 
-}
+
 /*about us*/
 .container-1{
     display: flex;
     padding: 200px 200px;
 }
-.box-1{
-    flex: 2;
+.about-text{
+    position:relative;
+        bottom: 7%;
+        right: 2%;
 }
-.box-2{
-    flex: 1;
+
+.about-us{
+    position: absolute;
+        top: 27%;
+        left: 40%;
 }
 
 
@@ -116,8 +144,39 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 200px 200px ;
+    }
+    .movie-container{
+        position:relative;
     
+        
+    }
+    .lobster-content1 {
+        position: absolute;
+        top: 1%;
+        left: 2%;
+    }
+    .lobster-content2 {
+        position: absolute;
+        top: 2%;
+        left: 12%;
+    }
+    .lobster-content3 {
+        position: absolute;
+       
+        top: 6%;
+        left: 2%;
+    }
+    .checkout-icon {
+        position: absolute;
+        bottom: 1%;
+        right: 10%;
+    }
+.container-info {
+    
+    line-height: 150%;
 }
+ 
+
 
 /*check out*/
 
@@ -132,15 +191,30 @@ footer {
     flex: 1;
 }
 /*contact*/
+
 .container-3{
     display: flex;
-    padding: 100px 250px;
-    width: 70%;
+    padding: 150px 250px;
+}
+
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 18%;
+        left: 20%;
+        line-height: 125%;
 
 }
 .container-4{
     display: flex;
-    flex-direction: column;
-    width: 40%;
-    }
-   
+    position:relative;
+    bottom: 1%;
+        left: 30%;
+}
+  
+@media all and (max-width:500px)
+{
+    
+}
+

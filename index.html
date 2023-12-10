@@ -1,49 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SquareEyes / Home</title>
-    <meta name="description" content="Discover our unique movie selection for real movie-heads. Explore a diverse range of genres, from classics to contemporary masterpieces. Join SquareEyes and experience cinema like never before.">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
-<body>
-    
-    <header>
-        <a href="index.html" class="logo">
-            <img src="./images/logo.png" alt="SquareEyes Logo" width="131" height="62">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="search.html" class="active">Search</a></li>
-            <li><a href="lobster.html" class="active">Our Selection</a></li>
-            <li><a href="about.html" class="active">About</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--
-    <div class="index-img"> 
-'<img src="./images/home.jpeg" alt="Home-page" width="'911" height="550" class="homepic">
-</div>
-<div class="home-info">
-    <h2>SQUARE EYES PRESENTS</h2>
-</div>
-    <div class="homeinfo">
-    <h1>CONNECTING FILM-LOVERS 2023</h1>
-    
-    -->
-<div class="container">
-    <div class="image">
-        <div class="overlay">
-            <h2>SQUARE EYES PRESENTS</h2>
-            <h1>CONNECTING FILM-LOVERS 2023</h1>
+    <meta
+      name="description"
+      content="Discover our unique movie selection for real movie-heads. Explore a diverse range of genres, from classics to contemporary masterpieces. Join SquareEyes and experience cinema like never before."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&family=Sen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link href="/styles.css" rel="stylesheet" />
+    <!-- Hotjar Tracking Code for my site -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3788083, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <div id="loading-indicator" style="display: none">Loading...</div>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo">SquareEyes</h1></div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active"><a href="index.html">Home</a></li>
+            <li class="menu-list-item active">Search</li>
+            <li class="menu-list-item active">Movies</li>
+            <li class="menu-list-item active">
+              <a href="about.html">About</a>
+            </li>
+            <li class="menu-list-item active">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <img src="./images/home.jpeg" alt="Home-page">   
+        <div class="profile-container">
+          <div class="profile-icons">
+            <ion-icon name="person-outline"></ion-icon>
+            <span class="profile-text">Profile</span>
+            <ion-icon name="caret-down"></ion-icon>
+          </div>
+        </div>
+        <div class="toggle">
+          <div class="toogle-icons">
+            <ion-icon name="moon"></ion-icon>
+            <ion-icon name="sunny"></ion-icon>
+          </div>
+          <div class="toggle-ball"></div>
+        </div>
+      </div>
     </div>
-</div>
+    <div class="sidebar">
+      <a href="index.html" class="sidebar-menu-icons">
+        <ion-icon name="home"></ion-icon>
+      </a>
+      <ion-icon name="search" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="people" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="bookmark" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="tv" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="hourglass" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="cart" class="sidebar-menu-icons"></ion-icon>
+    </div>
 
-</body>
+    <div class="movie-index-container">
+      <button class="button">
+        <a
+          href="http://127.0.0.1:5502/lobster.html?id=a7e81b82-d2e5-4288-b700-889186a7da0e"
+          target="_blank"
+        >
+          WATCH
+        </a>
+      </button>
+      <h2 class="movie-hollywood">Once Upon A Time In Hollywood</h2>
+      <img
+        class="movie-once-hollywood"
+        src="https://images6.alphacoders.com/106/1066413.jpg"
+        alt="onceinhollywood"
+      />
+    </div>
+    <div class="container">
+      <div class="index-container">
+        <div class="selection-container">
+          <h1 class="new-releases">NEW RELEASES</h1>
+          <div class="topselection"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="product-list.js"></script>
+  </body>
 </html>

@@ -1,70 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SquareEyes / Contact</title>
-    <meta name="description" content="Contact us for any inquiries, feedback, or assistance. Our dedicated team is here to help you. Get in touch with SquareEyes through our contact page and let us know how we can assist you.">
-    <link href="css/styles.css" rel="stylesheet">
-</head>
-<body>
-<header>
-    <a href="index.html" class="logo">
-        <img src="./images/logo.png" alt="SquareEyes Logo" width="131" height="62">
-    </a>
-    <nav>
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="search.html" class="active">Search</a></li>
-            <li><a href="lobster.html" class="active">Our Selection</a></li>
-            <li><a href="about.html" class="active">About</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<div class="container-3">
-<div class="contact-text">
-        <h1>VISIT OUR STORE</h1>
-        <p>OR SEND US A MESSAGE</p>
-   
-    
-        <h2>LONDON</h2>
-        <p>100 Oxford Street<br>London w1d 1ll UK</p>
-    
-        <h2>SAN FRANCISCO</h2>
-        <p>100 Market Street<br>San Francisco, CA 94105 USA</p>
-    
-   
-        <h2>STOCKHOLM</h2>
-        <p>Drottning Gatan 100<br>111 60 Stockholm SE</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SquareEyes / Home</title>
+    <meta
+      name="description"
+      content="Contact us for any inquiries, feedback, or assistance. Our dedicated team is here to help you. Get in touch with SquareEyes through our contact page and let us know how we can assist you."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:wght@300&family=Sen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link href="/styles.css" rel="stylesheet" />
+
+    <!-- Hotjar Tracking Code for my site -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3788083, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body>
+    <div id="loading-indicator" style="display: none">Loading...</div>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo">SquareEyes</h1></div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active"><a href="index.html">Home</a></li>
+            <li class="menu-list-item active">Search</li>
+            <li class="menu-list-item active">Movies</li>
+            <li class="menu-list-item active">
+              <a href="about.html">About</a>
+            </li>
+            <li class="menu-list-item active">
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <div class="profile-icons">
+            <ion-icon name="person-outline"></ion-icon>
+            <span class="profile-text">Profile</span>
+            <ion-icon name="caret-down"></ion-icon>
+          </div>
+        </div>
+        <div class="toggle">
+          <div class="toogle-icons">
+            <ion-icon name="moon"></ion-icon>
+            <ion-icon name="sunny"></ion-icon>
+          </div>
+          <div class="toggle-ball"></div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <a href="index.html" class="sidebar-menu-icons">
+        <ion-icon name="home"></ion-icon>
+      </a>
+      <ion-icon name="search" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="people" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="bookmark" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="tv" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="hourglass" class="sidebar-menu-icons"></ion-icon>
+      <ion-icon name="cart" class="sidebar-menu-icons"></ion-icon>
+    </div>
+    <div class="movie-index-container">
+      <img
+        class="movie-once-hollywood"
+        src="https://w0.peakpx.com/wallpaper/578/421/HD-wallpaper-joker-movie-2019-poster-joker-movie-joker-2019-movies-movies-joaquin-phoenix-poster.jpg"
+        alt="about-image"
+      />
+    </div>
+    <div class="container">
+      <div class="hello-container">
+        <div class="hello-text">
+          <h2>HELLO?</h2>
+          <br />
+          <br />
+          <p>
+            If you need help, have questions, or concerns, please feel free to
+            contact us. We're here to provide the support and information you
+            need. Use our available communication channels to reach out, and
+            we'll tailor our assistance to your needs. Your satisfaction is
+            important to us, and we're eager to help in any way we can.
+          </p>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div id="error_message"></div>
+        <form action="" id="myform" onsubmit="return validate();">
+          <div class="input_field">
+            <input type="text" placeholder="Name" id="name" />
+          </div>
+          <div class="input_field">
+            <input type="text" placeholder="Subject" id="subject" />
+          </div>
+          <div class="input_field">
+            <input type="text" placeholder="Phone" id="phone" />
+          </div>
+          <div class="input_field">
+            <input type="text" placeholder="Email" id="email" />
+          </div>
+          <div class="input_field">
+            <textarea placeholder="Message" id="message"></textarea>
+          </div>
+          <div class="btn">
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
     </div>
 
-    <div class="container-4"> 
-    <img src="./images/contact.png" width="700" height="450" class="contactimg"alt="About Image">
-</div>
-</div>
-<!--
-    <footer>
-        <div class="footer-content">
-            <h3 class="limited">&copy; SQUARE EYES LIMITED </h3>
-            <img src="./images/socials.png" class="socials" alt="Social Media Icons">
-        
-        </div>
-   
-    </footer>
--->
-<footer class="footer">
-    <div class="footer-text">
-      <h3>2023 SQUARE EYES LIMITED</h3>
-    </div>
-    <div class="social-icons">
-      <a href="#"><img src="./images/ri_facebook-box-fill.svg" alt="Instagram"></a>
-      <a href="#"><img src="./images/ri_instagram-fill.svg" alt="Instagram"></a>
-      <a href="#"><img src="./images/ri_twitter-fill.svg" alt="Instagram"></a>
-      <a href="#"><img src="./images/ri_youtube-fill.svg" alt="Instagram"></a>
-    </div>
-    </div>
-  </footer>
-</body>
+    <script type="module" src="product-list.js"></script>
+  </body>
 </html>
